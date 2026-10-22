@@ -1,0 +1,36 @@
+{
+  "name": "cohort",
+  "version": "1.0.0",
+  "description": "A CLI tool that helps launch multiple Sober instances at the same time",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "bin": {
+    "cohort": "./bin/cohort.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "cli",
+    "command-line",
+    "cohort",
+    "sober",
+    "utility"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT"
+}
