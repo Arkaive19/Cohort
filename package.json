@@ -9,9 +9,7 @@
   "bin": {
     "cohort": "./bin/cohort.js"
   },
-  "directories": {
-    "test": "test"
-  },
+  "os": ["linux"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
